@@ -991,7 +991,7 @@ window.addEventListener("load", fadeInOnScroll);
     const endDate = new Date('2023-10-21T23:00:00');
 
     // Crear la URL para agregar el evento al calendario (Google Calendar y otros)
-    const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=Nuestra+Boda&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Guadalupe,+AV.+Tepeyac+550,+Col:+Chapalita,+Guadalajara,+Jalisco`;
+    const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=BODA+M&R&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Guadalupe,+AV.+Tepeyac+550,+Col:+Chapalita,+Guadalajara,+Jalisco`;
 
     // Enlace para dispositivos iOS (iPhone, iPad)
     const iOsCalendarLink = `webcal://www.google.com/calendar/event?text=Nuestra+Boda&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Guadalupe,+AV.+Tepeyac+550,+Col:+Chapalita,+Guadalajara,+Jalisco`;
