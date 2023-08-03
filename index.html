@@ -535,8 +535,6 @@
         /* Ocultar inicialmente los elementos con la clase "appear" */
         .appear {
             opacity: 0;
-            align-items: center;
-            align-self: center;
           }
 
       /* Mostrar los elementos con la clase "appear" con una animación */
@@ -568,9 +566,23 @@
     padding: 20px;
     margin-top: 20px;
     transition: opacity 1s ease-in-out; /* Agregamos una transición de opacidad */
+    }
+
+        /* circulitos de colores no permitidos*/
     
+    .dress-code-paragraph {
+    display: inline;
+    position: relative;
 }
-       
+
+.color-circle {
+    display: inline-block;
+    width: 0.9em; /* Ajusta el tamaño de los círculos */
+    height: 0.9em; /* Igual que el ancho para mantener la forma circular */
+    margin: 0 2px; /* Ajusta el espaciado entre los círculos */
+    border-radius: 50%;
+}
+
 
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -766,10 +778,16 @@
 <div id="dress-code-section">
     <h3>DRESS CODE</h3>
     <h3>FORMAL</h3><br>
-    <p class="centered-paragraph"> <img class="dress-code-icon" src="source/formal.png" alt="Dress Code Icon"><br>
-        *Mujeres: Favor de omitir el color blanco y morado (bugambilia)
+    <p class="centered-paragraph dress-code-paragraph">
+        <img class="dress-code-icon" src="source/formal.png" alt="Dress Code Icon"><br>
+        Mujeres, favor de omitir:&nbsp;
+        <span class="color-circle" style="background-color: #ffffff;"></span>
+        <span class="color-circle" style="background-color: #faebd7;"></span>
+        <span class="color-circle" style="background-color: #800080;"></span>
+        <span class="color-circle" style="background-color: #e60094;"></span>
     </p>
 </div>
+
 
 
     <!-- Nueva sección SIN NIÑOS -->
