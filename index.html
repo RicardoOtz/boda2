@@ -35,6 +35,7 @@
             text-align: center;
             color: #ffffff;
         }
+        
         #content {
             padding: 20px;
         }
@@ -594,10 +595,11 @@
         
 
         /* Estilos para la nueva sección */
-.reveal-text {
+
+        .reveal-text {
     text-align: center;
-    padding: 50px 0;
-    /*background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 5px 0;
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
   }
 
   .reveal-text h2 {
@@ -609,7 +611,8 @@
   }
 
   .reveal-text p {
-    font-size: 20px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 28px;
     margin: 0;
     color: #5e5e5e;
   }
@@ -661,35 +664,27 @@
     </header>
 
     <div class="contador-content">
-    <h3  style="color: #fef5ee; font-size: 40px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">21 - 10 - 2023</h3>
-    <p style="color: #fef5ee; font-size: 24px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">LLEGÓ EL DÍA DE DECIRNOS SÍ PARA TODA LA VIDA...</p>
-    <p  style="color: #fef5ee; font-size: 24px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">FALTA POCO:</p>
+        <h3 class="appear" style="color: #000000; font-size: 40px; font-family: 'Pinyon Script', cursive">21 - 10 - 2023</h3>
+        <img class="contador-img" src="Source/amor.png" alt="corazon">
+        <p class="appear" style="color: #000000; font-size: 24px;  font-family: 'Noto Serif TC', serif">LLEGÓ EL DÍA DE DECIRNOS SÍ PARA TODA LA VIDA...</p>
+        <p class="appear" style="color: #000000; font-size: 24px;  font-family: 'Noto Serif TC', serif">FALTA POCO:</p>
 
-    <table width="90%" >
-        <tr>
-            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif"><span id="days"></span></td>
-            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="hours"></span></td>
-            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="minutes"></span></td>
-            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif"><span id="seconds"></span></td>
-        </tr>
-        <tr id="countdown-labels" >
-            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Días|</th>
-            <th style="color:#fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Horas|</th>
-            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Minutos|</th>
-            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Segundos</th>
-        </tr>
-    </table>
+        <table width="90%" class="appear">
+            <tr>
+                <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif"><span id="days"></span></td>
+                <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="hours"></span></td>
+                <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="minutes"></span></td>
+                <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif"><span id="seconds"></span></td>
+            </tr>
+            <tr id="countdown-labels" class="appear">
+                <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Días|</th>
+                <th style="color:#919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Horas|</th>
+                <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Minutos|</th>
+                <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Segundos</th>
+            </tr>
+        </table>
 </div>
 
-
-    
-    <div class="frase-container">
-        <div class="frase" id="frase">
-            <img src="/Source/corazon.png" class="img-frase-top" alt="corazon">
-            <p>NO CREÍA EN EL DESTINO HASTA QUE NUESTRAS VIDAS SE CRUZARON Y EL AMOR FLORECIÓ ENTRE NOSOTROS</p>
-            
-        </div>
-    </div>
     <!-- Carrusel de imágenes -->
     <div class="carousel">
       <!-- Imágenes del carrusel -->
