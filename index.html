@@ -19,16 +19,14 @@
         /* Estilos para la página #ffe9da original */
         body {
             font-family: 'Noto Serif TC', serif;
-            margin: 0;
+            margin: 0; 
             background-image: url(Source/beige.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
         }
         header {
-            background-image: url('source/cover.jpg');
-            background-size: cover;
-            background-position: center center;
+            background: linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(/Source/image12.jpg) no-repeat center center fixed;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -107,17 +105,16 @@
         }
 
         .contador-content{
-            height: auto;
+           /* background: linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(/Source/image12.jpg) no-repeat center center fixed;
+            background-size: cover;
+            background-position: center center;*/
+            height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: #ffffff;
-        }
-        .contador-img{
-            height: 30px;
-            width: 30px;
         }
 
 
@@ -133,6 +130,7 @@
             overflow: hidden;
             position: relative;
             margin-top: 20px;
+        
         }
 
         .carousel-inner {
@@ -324,7 +322,7 @@
     }
 
         /* Estilos para la sección SALÓN */
-        #salon-section {
+        .salon-section {
 
               color: #000000;
               padding: 20px;
@@ -333,7 +331,7 @@
               margin-top: 20px;
         }
 
-        #salon-section h2 {
+        .salon-section h2 {
             margin: 0;
               font-size: 24px;
               font-family: 'Merienda', cursive;
@@ -366,7 +364,7 @@
         }
 
          /* Estilos para la sección DRESS CODE */
-        #dress-code-section {
+        .dress-code-section {
             color: #000000;
             padding: 20px;
             border-radius: 10px;
@@ -374,13 +372,13 @@
             margin-top: 20px;
         }
 
-        #dress-code-section h3 {
+        .dress-code-section h3 {
             margin: 0;
             font-size: 24px;
             font-family: 'Merienda', cursive;
         }
         
-        #dress-code-section p {
+        .dress-code-section p {
             font-size: 18px;
             font-family: 'Noto Serif TC', serif;
             margin-bottom: 10px;
@@ -400,7 +398,7 @@
 
         /* estilo para el aviso de ñiños*/
 
-        #sin-ninos-section {
+        .sin-ninos-section {
             color: #000000;
             padding: 20px;
             border-radius: 10px;
@@ -408,13 +406,13 @@
             margin-top: 20px;
         }
 
-        #sin-ninos-section h2 {
+        .sin-ninos-section h2 {
             margin: 0;
             font-size: 24px;
             font-family:'Merienda', cursive;
         }
 
-        #sin-ninos-section p {
+        .sin-ninos-section p {
             font-size: 18px;
             font-family: 'Noto Serif TC', serif;
         }
@@ -425,7 +423,7 @@
         }
 
         /* Estilos para la nueva sección MESA DE REGALOS */
-        #mesa-de-regalos-section {
+        .mesa-de-regalos-section {
             color: #000000; 
             padding: 20px;
             border-radius: 10px;
@@ -436,20 +434,20 @@
             align-items: center;
         }
 
-        #mesa-de-regalos-section h2 {
+        .mesa-de-regalos-section h2 {
             margin: 0;
             font-size: 24px;
             font-family: 'Merienda', cursive;
             
         }
 
-        #mesa-de-regalos-section p {
+        .mesa-de-regalos-section p {
             font-size: 18px;
             font-family: 'Noto Serif TC', serif;
             margin-bottom: 10px;
         }
 
-        #mesa-de-regalos-button {
+        .mesa-de-regalos-button {
             background-color: #ada86d;
             border: none;
             cursor: pointer;
@@ -462,7 +460,7 @@
             text-decoration: none;
         }
 
-        #mesa-de-regalos-button:hover {
+        .mesa-de-regalos-button:hover {
             background-color: #cab700;
         }
 
@@ -484,7 +482,7 @@
             
         }
 
-        #separador-section {
+        .separador-section {
             height: 200px;
             color: #000000;
             border-radius: 10px;
@@ -569,14 +567,14 @@
 
 
 .frase {
-    opacity: 0; /* Establecemos la opacidad inicial en 0 */
+    /*opacity: 0; /* Establecemos la opacidad inicial en 0 */
     font-family: 'Noto Serif TC', serif;
     color: #5e5e5e;
     font-size: 18px;
     text-align: center;
     padding: 20px;
   /*  margin-top: 20px;*/
-    transition: opacity 1s ease-in-out; /* Agregamos una transición de opacidad */
+    /*transition: opacity 1s ease-in-out; /* Agregamos una transición de opacidad */
     }
 
         /* circulitos de colores no permitidos*/
@@ -592,16 +590,14 @@
     height: 0.9em; /* Igual que el ancho para mantener la forma circular */
     margin: 0 2px; /* Ajusta el espaciado entre los círculos */
     border-radius: 50%;
-    border-color: #000000;
-    border-style: solid;
 }
         
 
         /* Estilos para la nueva sección */
 .reveal-text {
     text-align: center;
-    padding: 5px 0;
-    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 50px 0;
+    /*background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
   }
 
   .reveal-text h2 {
@@ -609,11 +605,11 @@
     margin: 0;
     margin-bottom: 10px;
     color: #5e5e5e;
+    font-family:'Merienda', cursive;
   }
 
   .reveal-text p {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 28px;
+    font-size: 20px;
     margin: 0;
     color: #5e5e5e;
   }
@@ -655,11 +651,9 @@
           <h1 id="title" class="appear">
             <span style="position: relative; top: 60px; margin-top: 60px;">M</span>
             <span style="position: relative; top: 60px; margin-top: 60px;">&</span>
-            <span style="position: relative; top: 60px; margin-top: 60px;">R</span>
+            <span style="position: relative; top: 60px; margin-top: 600px;">R</span>
           </h1>
           <h2 class="appear" style="color: #fef5ee; font-size: 26px; font-weight: bold; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">¡NOS CASAMOS!</h2> 
-    
-
       </div>
 
       <button id="pause-button">⏸️</button>
@@ -667,23 +661,22 @@
     </header>
 
     <div class="contador-content">
-    <h3 class="appear" style="color: #000000; font-size: 40px; font-family: 'Pinyon Script', cursive">21 - 10 - 2023</h3>
-    <img class="contador-img" src="Source/amor.png" alt="corazon">
-    <p class="appear" style="color: #000000; font-size: 24px;  font-family: 'Noto Serif TC', serif">LLEGÓ EL DÍA DE DECIRNOS SÍ PARA TODA LA VIDA...</p>
-    <p class="appear" style="color: #000000; font-size: 24px;  font-family: 'Noto Serif TC', serif">FALTA POCO:</p>
+    <h3  style="color: #fef5ee; font-size: 40px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">21 - 10 - 2023</h3>
+    <p style="color: #fef5ee; font-size: 24px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">LLEGÓ EL DÍA DE DECIRNOS SÍ PARA TODA LA VIDA...</p>
+    <p  style="color: #fef5ee; font-size: 24px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">FALTA POCO:</p>
 
-    <table width="90%" class="appear">
+    <table width="90%" >
         <tr>
-            <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif"><span id="days"></span></td>
-            <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="hours"></span></td>
-            <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="minutes"></span></td>
-            <td style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif"><span id="seconds"></span></td>
+            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif"><span id="days"></span></td>
+            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="hours"></span></td>
+            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif; margin-right: 5px;"><span id="minutes"></span></td>
+            <td style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif"><span id="seconds"></span></td>
         </tr>
-        <tr id="countdown-labels" class="appear">
-            <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Días|</th>
-            <th style="color:#919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Horas|</th>
-            <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Minutos|</th>
-            <th style="color: #919125; font-size: 22px;  font-family: 'Noto Serif TC', serif">Segundos</th>
+        <tr id="countdown-labels" >
+            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Días|</th>
+            <th style="color:#fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Horas|</th>
+            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Minutos|</th>
+            <th style="color: #fef5ee; font-size: 22px; text-shadow: -3px 3px 3px #808080; font-family: 'Noto Serif TC', serif">Segundos</th>
         </tr>
     </table>
 </div>
@@ -692,6 +685,8 @@
     
     <div class="frase-container">
         <div class="frase" id="frase">
+            <img src="/Source/corazon.png" class="img-frase-top" alt="corazon">
+            <p>NO CREÍA EN EL DESTINO HASTA QUE NUESTRAS VIDAS SE CRUZARON Y EL AMOR FLORECIÓ ENTRE NOSOTROS</p>
             
         </div>
     </div>
@@ -722,7 +717,7 @@
           <img class="carousel-image" src="source/image20.jpg" alt="">
           <img class="carousel-image" src="source/image21.jpg" alt="">
           <img class="carousel-image" src="source/image22.jpg" alt="">
-          <img class="carousel-image" src="source/image23.jpg" alt="">
+          <img class="carousel-image" src="source/image23_1.jpg" alt="">
           <img class="carousel-image" src="source/image24.jpg" alt="">
           <img class="carousel-image" src="source/image2.jpg" alt="">
           <img class="carousel-image" src="source/image25.jpg" alt="">
@@ -764,7 +759,7 @@
 </div>
 
  <!--Separador de divs-->
- <div id="separador-section">
+ <div class="separador-section">
     <img class="img-separador" src="Source/separador.png" alt="separador">
 </div>
 
@@ -802,12 +797,12 @@
 
     </main>
  <!--Separador de divs-->
- <div id="separador-section">
+ <div class="separador-section">
     <img class="img-separador" src="Source/separador.png" alt="separador">
 </div>
 
     <!-- Salon -->
-    <div id="salon-section">
+    <div class="salon-section">
         <h2 style="text-align: center;">SALÓN</h2>
     </div>
     
@@ -831,12 +826,12 @@
 </div>
 
     <!-- Sección DRESS CODE -->
-<div id="dress-code-section">
+<div class="dress-code-section">
     <h3>DRESS CODE</h3>
     <h3>FORMAL</h3><br>
     <p class="centered-paragraph dress-code-paragraph">
         <img class="dress-code-icon" src="source/formal.png" alt="Dress Code Icon"><br>
-        Mujeres, favor de omitir:&nbsp; <br> <br>
+        Mujeres, favor de omitir:&nbsp;
         <span class="color-circle" style="background-color: #ffffff;"></span>
         <span class="color-circle" style="background-color: #faebd7;"></span>
         <span class="color-circle" style="background-color: #800080;"></span>
@@ -847,7 +842,7 @@
 
 
     <!-- Nueva sección SIN NIÑOS -->
-<div id="sin-ninos-section"> 
+<div class="sin-ninos-section"> 
         <h2>¡NO NIÑOS!</h2>
         <p class="centered-paragraph"> <img class="child-icon" src="/Source/ninos.png" alt=""><br>
              Amamos a los niños, pero creemos que necesitan una noche libre.<br>
@@ -857,18 +852,18 @@
     </div>
     
      <!--Separador de divs-->
-     <div id="separador-section">
+     <div class="separador-section">
         <img class="img-separador" src="Source/separador.png" alt="separador">
     </div>
 
     <!-- Nueva sección MESA DE REGALOS -->
-    <div id="mesa-de-regalos-section">
+    <div class="mesa-de-regalos-section">
         <h2>MESA DE REGALOS</h2>
         <p>Nuestro mejor regalo es que estés con nosotros en nuestro día, pero si quieres hacernos un obsequio te compartimos la siguiente opcion:</p>
         <img class="img-regalo"  src="/Source/regalo.png" alt="regalo"><br>
         <img class="img-mesa" src="/Source/liverpool.jpg" alt="liverpool"><br>
 
-        <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51205311" target="_blank" id="mesa-de-regalos-button">Ir a Mesa de Regalos</a>
+        <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51205311" target="_blank" class="mesa-de-regalos-button">Ir a Mesa de Regalos</a>
     </div>
 
    
@@ -907,7 +902,7 @@
           document.getElementById("popup").style.display = "flex";
       }
 
-      var audio = new Audio("source/cancion1.mp3");
+      var audio = new Audio("source/cancion.mp3");
 
       document.getElementById("accept-button").onclick = function() {
           document.getElementById("popup").style.display = "none";
@@ -956,7 +951,7 @@ function isElementInViewport(el) {
 
 // Función que maneja el efecto de desvanecimiento cuando el elemento es visible
 function fadeInOnScroll() {
-    const fraseElement = document.getElementById("frase");
+   /* const fraseElement = document.getElementById("frase");*/
 
     function fadeIn() {
         let opacity = 0;
@@ -1120,6 +1115,23 @@ window.addEventListener("load", fadeInOnScroll);
   });
 
   sr.reveal('.reveal-text', { interval: 200 });
+  sr.reveal('.frase-container', { interval: 200 });
+  sr.reveal('.contador-content', { interval: 200 });
+  sr.reveal('.carousel', { interval: 200 });
+        sr.reveal('.confirmation-form-container', { interval: 200 });
+        sr.reveal('.agregar-al-calendario-section', { interval: 200 });
+        sr.reveal('.confirmation-form-container', { interval: 200 });
+        sr.reveal('.mesa-de-regalos-section', { interval: 200 });
+        sr.reveal('.sin-ninos-section', { interval: 200 });
+        sr.reveal('.dress-code-section', { interval: 200 });
+        sr.reveal('.image-container', { interval: 200 });
+        sr.reveal('.salon-section', { interval: 200 });
+        sr.reveal('.blessing-container', { interval: 200 });
+        sr.reveal('.bendicion-container', { interval: 200 });
+        sr.reveal('.separador-section', { interval: 200 });
+        sr.reveal('.container', { interval: 200 });
+        sr.reveal('.tituloceremony-container', { interval: 200 });
+       
 
 
         
